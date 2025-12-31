@@ -5,21 +5,21 @@ class Elvis < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/iamtanong/elvis/releases/download/v0.1.0/elvis-aarch64-apple-darwin.tar.xz"
-      sha256 "8ffa431c8c9ea9ff48567432394f8a6b655d95289504373ba2f293bb3ef2b827"
+      sha256 "2910b0fe474694d121d63768cd3cb13e80ad179b08ecd5175083d5d579fb25c6"
     end
     if Hardware::CPU.intel?
       url "https://github.com/iamtanong/elvis/releases/download/v0.1.0/elvis-x86_64-apple-darwin.tar.xz"
-      sha256 "3478b6d4241df8bdd509e97cdc5c1b5ed864dd308e21dfdb84f3c22bfd2e4984"
+      sha256 "200e62901f33e0dc439bad5a0b208247665c5853fbe94da3d8bf3705706dd87b"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/iamtanong/elvis/releases/download/v0.1.0/elvis-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "0efa559dcbbbd926b90de52fa2106cd5cb4aa2aa8081db485456ce87b87eaf64"
+      sha256 "fdb9d017609a42864de86272dc1e2426fcfc5a7f1543904ce84c0c7df93a7d84"
     end
     if Hardware::CPU.intel?
       url "https://github.com/iamtanong/elvis/releases/download/v0.1.0/elvis-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "97d1158dfe368528b8b9f14bd0cfcad910acb0a98ec58141ea272eedad62ac8c"
+      sha256 "9576f0fc5f061da8ebee5f1ef839aa2a2c984792e0a73a2ec812813e4cc1f063"
     end
   end
   license "MIT"
